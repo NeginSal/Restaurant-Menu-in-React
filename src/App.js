@@ -1,9 +1,10 @@
-import Home from "./Home"
+import Manager from './Manager'
+
 
 const App = () => {
   return (
     <div className="content">
-      <Home/>
+          <Manager/>
     </div>
    );
 }
