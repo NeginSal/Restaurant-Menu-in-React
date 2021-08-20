@@ -35,16 +35,25 @@
   justify-content: center;
   margin: auto;
 }
+.box1 {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
+  color: darkcyan;
+}
+.box2{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  color: darkcyan;
+}
 .input{
-  border: 1px solid #333;
-  border-radius: 0.3rem;
-  padding: 0.25rem;
-  width: 7em;
-}
-select{
-  margin-left: 0.5rem;
-}
-.equals{
-  font-weight: bold;
-  font-size: 2rem;
+  width: 400px;
+  border: 2px solid #006666;
+  background-color: #fbfbfb;
+  padding: 10px 16px;
+  display: flex;
+  justify-content: center;
+  margin-left: 5px;
 }

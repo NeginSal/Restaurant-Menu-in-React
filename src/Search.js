@@ -14,7 +14,7 @@ const Home = () => {
         { id: "8", name: "PepperoniPizza", price: "400000" }
       ];
 
-      const filterNames = ({ price,name }) => {
+      const filterNames = ({ price, name }) => {
         return price.indexOf(searchValue) !== -1 ||
                name.toLowerCase().indexOf(searchValue.toLowerCase()) !== -1;
       };
